@@ -34,8 +34,15 @@ class Timer extends Phaser.Scene {
         elapsedSeconds -= 60 * elapsedMinutes;
         elapsedSeconds = Math.trunc(elapsedSeconds * 100) / 100
 
-        if (elapsedMinutes < 10) this.scoreText.text = "0" + String(elapsedMinutes) + ":" + String(elapsedSeconds);
-        else this.scoreText.text = String(elapsedMinutes) + ":" + String(elapsedSeconds);
+        let outputSeconds;
+        if (elapsedSeconds < 10) outputSeconds = "0" + String(elapsedSeconds);
+        else outputSeconds = String(elapsedSeconds);
+
+        let outputMinutes;
+        if (elapsedMinutes < 10) outputMinutes = "0" + String(elapsedMinutes);
+        else outputMinutes = String(elapsedMinutes);
+
+        this.scoreText.text = outputMinutes + ":" + outputSeconds;
 
     }
 }
