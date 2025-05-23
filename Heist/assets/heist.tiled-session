@@ -1,0 +1,56 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "heist.tmx",
+    "expandedProjectPaths": [
+        "."
+    ],
+    "fileStates": {
+        "": {
+            "scaleInDock": 5.5,
+            "scaleInEditor": 3
+        },
+        "#Industrial": {
+            "scaleInEditor": 1
+        },
+        "heist.tmx": {
+            "scale": 0.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 639,
+                "y": 303
+            }
+        },
+        "heist.tmx#Metal_Tiles": {
+            "scaleInEditor": 1
+        },
+        "heist.tmx#block_tiles": {
+            "scaleInDock": 2
+        },
+        "heist.tmx#pixel_industrial": {
+            "scaleInDock": 3
+        }
+    },
+    "last.exportedFilePath": "C:/Users/Aegis/Documents/school/spring 25/cmpm 120/CMPM120/StarterPlatformer-master/assets",
+    "last.imagePath": "C:/Users/Aegis/Documents/school/spring 25/cmpm 120/CMPM120/StarterPlatformer-master/assets",
+    "map.lastUsedExportFilter": "JSON map files (*.tmj *.json)",
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 18,
+    "map.tileWidth": 18,
+    "map.width": 120,
+    "openFiles": [
+        "heist.tmx"
+    ],
+    "project": "heist.tiled-project",
+    "property.type": "bool",
+    "recentFiles": [
+        "heist.tmx"
+    ],
+    "tileset.embedInMap": true,
+    "tileset.tileSize": {
+        "height": 18,
+        "width": 18
+    }
+}
